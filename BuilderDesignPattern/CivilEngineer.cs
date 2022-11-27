@@ -14,7 +14,6 @@ namespace BuilderDesignPattern
 		{
 			this.houseBuilder = houseBuilder;
 		}
-
 		public House getHouse()
 		{
 			return this.houseBuilder.getHouse();
